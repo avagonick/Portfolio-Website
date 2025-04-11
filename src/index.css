@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+  background: #0a0a0a;
+  color: #f3f4f6;
+}
+
+/*define a custom animation within the utilities layer in tailwind*/
+@layer utilities {
+
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .animate-blink {
+    animation: blink 0.8s step-end infinite;
+  }
+  
+  /*creates a loading animation there is stuff defined in keyframes used to make animations*/
+  @keyframes loading {
+
+    /* move the element from off-screen left to far right */
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(250%);
+    }
+  }
+
+  /*apply the defines loading keyframe to the .animate-loading-bar component*/
+  .animate-loading-bar{
+    animation: loading 0.8s ease infinite;
+  }
+}
