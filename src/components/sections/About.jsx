@@ -5,13 +5,10 @@ export const About=() => {
 
     return (<section id="about" className="min-h-screen flex items-center justify-center scroll-mt-10">
         <div className="max-w-5xl mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+            <h2 className="text-4xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             About Me
             </h2>
             <div className="rounded-xl p-8 border-white/30 border hover:-translate-y-1 transition-all">
-                <p className="text-gray-300 mb-6"> 
-                    Generic Text I need to write more about myself Who am I quicker summary idk ill figure it out all later?
-                </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
 
 {/* education box*/} 
@@ -19,20 +16,16 @@ export const About=() => {
                     <h3 className="text-xl font-bold mb-4"> &#x1F3EB; Education </h3>
                     <div className="text-gray-300 space-y-2">
                     <div className="mb-1 flex items-center">
-                            <img src = "src/assets/UCSD.png" alt = "UCSD Logo" className = "w-8 h-8 inline mr-2 rounded-xs"></img><strong> M.S. in Computer Science and Engineering </strong> 
+                            <img src = "src/assets/UCSD.png" alt = "UCSD Logo" className = " -ml-2 -w-8 h-8 inline mr-2 rounded-xs"></img><strong> M.S. in Computer Science and Engineering </strong> 
                             </div>
+                           <em> University of California, San Diego (2025-2026) </em>
                             <ul className="list-disc list-inside">
-                                <li> 
-                                University of California, San Diego (2025-2026) 
-                                </li>
                             </ul>
-                            <div className="mb-1 flex items-center">
-                            <img src = "src/assets/UCLA.png" alt = "UCLA Logo" className = "w-8 h-8 inline mr-2 rounded-xs"></img><strong>  B.S. in Computational Biology </strong> 
+                            <div className="mb-0 flex items-center">
+                            <img src = "src/assets/UCLA.png" alt = "UCLA Logo" className = " -ml-2 w-8 h-8 inline mr-2 rounded-xs"></img><strong>  B.S. in Computational Biology </strong> 
                             </div>
+                            <em> University of California, Los Angeles (2021-2025) </em>
                             <ul className="list-disc list-inside">
-                                <li> 
-                                University of California, Los Angeles (2021-2025) 
-                                </li>
                                 <li> 
                                 Summa Cum Laude 
                                 </li>
@@ -51,11 +44,11 @@ export const About=() => {
                     <h3 className="text-xl font-bold mb-4"> &#x1F4BC; Internships </h3>
                     <div className="space-y-4 text-gray-300">
                         <div>
-                            <div className="mb-1 flex items-center">
-                            <img src = "src/assets/apple.png" alt = "Apple Logo" className = "w-8 h-8 inline mr-2 rounded-xs"></img><strong> Software Engineering Intern at Apple </strong> 
+                            <div className="mb-2 flex items-center">
+                            <img src = "src/assets/apple.png" alt = "Apple Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs"></img><strong> Software Engineering Intern at Apple </strong> 
                             </div>
+                            <em> June 2025 - August 2025 </em>
                             <ul className="list-disc list-inside">
-                                <li> (June 2025 - August 2025) </li>
                                 <li> 
                                 What I did there yahooo 
                                 </li>
@@ -63,21 +56,21 @@ export const About=() => {
                         </div>
                         <div>
                         <div className="mb-1 flex items-center">
-                            <img src = "src/assets/neurocrine.jpg" alt = "Neurocrine Logo" className = "w-8 h-8 inline mr-2 rounded-xs"></img><strong> Data Management intern at Neurocrine Biosciences </strong> 
+                            <img src = "src/assets/neurocrine.png" alt = "Neurocrine Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs"></img><strong> Data Management intern at Neurocrine Biosciences </strong> 
                             </div>
+                            <em> June 2024 - August 2024 </em>
                             <ul className="list-disc list-inside">
-                                <li> (June 2024 - August 2024) </li>
                                 <li> 
                                 What I did there yahooo 
                                 </li>
                             </ul>
                         </div>
                         <div>
-                        <div className="mb-1 flex items-center">
-                            <img src = "src/assets/burningrock.png" alt = "Burning Rock Logo" className = "w-8 h-8 inline mr-2 rounded-xs"></img><strong> Bioinformatics intern at Burning Rock </strong> 
+                        <div className="mb-2 flex items-center">
+                            <img src = "src/assets/burningrock.png" alt = "Burning Rock Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs"></img><strong> Bioinformatics intern at Burning Rock </strong> 
                             </div>
+                            <em> September 2023 - June 2024 </em>
                             <ul className="list-disc list-inside">
-                                <li> (September 2023 - June 2024) </li>
                                 <li> 
                                 What I did there yahooo 
                                 </li>
@@ -92,10 +85,10 @@ export const About=() => {
                     <div className="space-y-4 text-gray-300">
                     <div>
                     <div className="mb-1 flex items-center">
-                            <img src = "src/assets/breakthroughtech.png" alt = "Break Through Tech Logo" className = "w-8 h-8 inline mr-2 rounded-xs object-cover object-center"></img><strong> Break Through Tech AI through Cornell Tech fellow </strong> 
+                            <img src = "src/assets/breakthroughtech.png" alt = "Break Through Tech Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs object-cover object-center"></img><strong> Break Through Tech AI through Cornell Tech fellow </strong> 
                             </div>
+                            <em> May 2024 - May 2025 </em>
                             <ul className="list-disc list-inside">
-                                <li> (May 2024 - May 2025) </li>
                                 <li> 
                                 What I did there yahooo 
                                 </li>
@@ -103,10 +96,10 @@ export const About=() => {
                         </div>
                         <div>
                         <div className="mb-1 flex items-center">
-                            <img src = "src/assets/directv.png" alt = "DirecTV Logo" className = "w-8 h-8 inline mr-2 rounded-xs object-cover object-center"></img><strong> AI Studio Fellow at DirecTV </strong> 
+                            <img src = "src/assets/directv.png" alt = "DirecTV Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs object-cover object-center"></img><strong> AI Studio Fellow at DirecTV </strong> 
                             </div>
+                            <em> September 2024 - December 2024 </em>
                             <ul className="list-disc list-inside">
-                                <li> (September 2024 - December 2024) </li>
                                 <li> 
                                 What I did there yahooo 
                                 </li>
@@ -120,10 +113,10 @@ export const About=() => {
                     <h3 className="text-xl font-bold mb-4"> &#129514; Research Experience </h3>
                     <div>
                     <div className="mb-1 flex items-center">
-                            <img src = "src/assets/uclahealth.jpg" alt = "UCLA Health Logo" className = "w-8 h-8 inline mr-2 rounded-xs object-cover object-center"></img><strong> Undergraduate Machine Learning Researcher at the UCLA Chiang Lab </strong> 
+                            <img src = "src/assets/uclahealth.jpg" alt = "UCLA Health Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs object-cover object-center"></img><strong> Undergraduate Machine Learning Researcher at the UCLA Chiang Lab </strong> 
                             </div>
+                            <em>  November 2023 - June 2025 </em>
                             <ul className="list-disc list-inside">
-                                <li> (November 2023 - June 2025) </li>
                                 <li> 
                                 What I did there yahooo 
                                 </li>
