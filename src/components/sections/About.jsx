@@ -1,3 +1,14 @@
+import UCSD from '../../assets/UCSD.png';
+import UCLA from '../../assets/UCLA.png';
+import Apple from '../../assets/apple.png';
+import Neurocrine from '../../assets/neurocrine.png';
+import BurningRock from '../../assets/burningrock.png';
+import BreakThroughTech from '../../assets/breakthroughtech.png';
+import DirecTV from '../../assets/directv.png';
+import UCLAHealth from '../../assets/uclahealth.jpg';
+import GradWIC from '../../assets/GradWIC.png';
+import CraftingForCancer from '../../assets/Crafting.png';
+
 export const About=() => {
 
     const LangaugesAndTech = ['Python', 'JavaScript', 'SQL', 'C++', 'SAS', 'HTML', 'CSS', 'Git', 'Linux/Unix', 'MongoDB'];
@@ -15,13 +26,13 @@ export const About=() => {
                     <div className="text-gray-300 space-y-2">
 {/*big box on top for education*/}
                     <div className="mb-1 flex items-center">
-                            <img src = "src/assets/UCSD.png" alt = "UCSD Logo" className = " -ml-2 -w-8 h-8 inline mr-2 rounded-xs"></img><strong> M.S. in Computer Science and Engineering </strong> 
+                            <img src = {UCSD} alt = "UCSD Logo" className = " -ml-2 -w-8 h-8 inline mr-2 rounded-xs"></img><strong> M.S. in Computer Science and Engineering </strong> 
                             </div>
                            <em> University of California, San Diego (2025-2026) </em>
                             <ul className="list-disc list-inside">
                             </ul>
                             <div className="mb-0 flex items-center">
-                            <img src = "src/assets/UCLA.png" alt = "UCLA Logo" className = " -ml-2 w-8 h-8 inline mr-2 rounded-xs"></img><strong>  B.S. in Computational Biology </strong> 
+                            <img src = {UCLA} alt = "UCLA Logo" className = " -ml-2 w-8 h-8 inline mr-2 rounded-xs"></img><strong>  B.S. in Computational Biology </strong> 
                             </div>
                             <em> University of California, Los Angeles (2021-2025) </em>
                             <ul className="list-disc list-inside">
@@ -46,7 +57,7 @@ export const About=() => {
                     <div className="space-y-4 text-gray-300">
                         <div>
                             <div className="mb-2 flex items-center">
-                            <img src = "src/assets/apple.png" alt = "Apple Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs"></img><strong> Software Engineering Intern at Apple </strong> 
+                            <img src = {Apple} alt = "Apple Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs"></img><strong> Software Engineering Intern at Apple </strong> 
                             </div>
                             <em> June 2025 - August 2025 </em>
                             <ul className="list-disc list-inside">
@@ -58,7 +69,7 @@ export const About=() => {
 
                         <div>
                         <div className="mb-2 flex items-center">
-                            <img src = "src/assets/neurocrine.png" alt = "Neurocrine Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs"></img><strong> Data Management intern at Neurocrine Biosciences </strong> 
+                            <img src = {Neurocrine} alt = "Neurocrine Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs"></img><strong> Data Management intern at Neurocrine Biosciences </strong> 
                             </div>
                             <em> June 2024 - August 2024 </em>
                             <ul className="list-disc list-inside">
@@ -78,7 +89,7 @@ export const About=() => {
                         <div>
 
                         <div className="mb-2 flex items-center">
-                            <img src = "src/assets/burningrock.png" alt = "Burning Rock Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs"></img><strong> Bioinformatics intern at Burning Rock </strong> 
+                            <img src ={BurningRock} alt = "Burning Rock Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs"></img><strong> Bioinformatics intern at Burning Rock </strong> 
                             </div>
                             <em> September 2023 - June 2024 </em>
                             <ul className="list-disc list-inside">
@@ -103,7 +114,7 @@ export const About=() => {
                     <div className="space-y-4 text-gray-300">
                     <div>
                     <div className="mb-1 flex items-center">
-                            <img src = "src/assets/breakthroughtech.png" alt = "Break Through Tech Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs object-cover object-center"></img><strong> Fellow at Break Through Tech AI through Cornell Tech </strong> 
+                            <img src = {BreakThroughTech} alt = "Break Through Tech Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs object-cover object-center"></img><strong> Fellow at Break Through Tech AI through Cornell Tech </strong> 
                             </div>
                             <em> May 2024 - May 2025 </em>
                             <ul className="list-disc list-inside">
@@ -122,7 +133,7 @@ export const About=() => {
                         </div>
                         <div>
                         <div className="mb-1 flex items-center">
-                            <img src = "src/assets/directv.png" alt = "DirecTV Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs object-cover object-center"></img><strong> AI Studio Fellow at DirecTV </strong> 
+                            <img src = {DirecTV} alt = "DirecTV Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs object-cover object-center"></img><strong> AI Studio Fellow at DirecTV </strong> 
                             </div>
                             <em> September 2024 - December 2024 </em>
                             <ul className="list-disc list-inside">
@@ -147,7 +158,7 @@ export const About=() => {
                     <div className="space-y-4 text-gray-300">
                     <div>
                     <div className="mb-2 flex items-center">
-                            <img src = "src/assets/uclahealth.jpg" alt = "UCLA Health Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs object-cover object-center"></img><strong> Undergraduate Machine Learning Researcher at the UCLA Chiang Lab </strong> 
+                            <img src = {UCLAHealth} alt = "UCLA Health Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs object-cover object-center"></img><strong> Undergraduate Machine Learning Researcher at the UCLA Chiang Lab </strong> 
                             </div>
                             <em>  November 2023 - June 2025 </em>
                             <ul className="list-disc list-inside">
@@ -175,7 +186,7 @@ export const About=() => {
                     <div className = "space-y-4 text-gray-300">
                     <div>
                     <div className="mb-2 flex items-center">
-                            <img src = "src/assets/GradWIC.png" alt = "GradWIC Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs object-cover object-center"></img><strong> Community Chair of UCSD Graduate Women In Computing </strong> 
+                            <img src = {GradWIC} alt = "GradWIC Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs object-cover object-center"></img><strong> Community Chair of UCSD Graduate Women In Computing </strong> 
                             </div>
                             <em>  June 2025 - Present </em>
                             <ul className="list-disc list-inside">
@@ -186,7 +197,7 @@ export const About=() => {
                         </div>
                        <div>
                     <div className="mb-2 flex items-center">
-                            <img src = "src/assets/Crafting.png" alt = "Crafting For Cancer Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs object-cover object-center"></img><strong> President of UCLA Crafting For Cancer </strong> 
+                            <img src = {CraftingForCancer} alt = "Crafting For Cancer Logo" className = "-ml-2 w-8 h-8 inline mr-2 rounded-xs object-cover object-center"></img><strong> President of UCLA Crafting For Cancer </strong> 
                             </div>
                             <em> June 2022 - June 2025 </em>
                             <ul className="list-disc list-inside">

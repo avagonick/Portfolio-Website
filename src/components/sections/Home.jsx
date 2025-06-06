@@ -1,3 +1,5 @@
+import Headshot from '../../assets/Headshot.jpg';
+
 export const Home = () => {
     return <section className="min-h-screen flex items-center justify-center relative">
         <div id="home" className="text-center z-10 px-4  scroll-mt-10 ">
@@ -6,7 +8,7 @@ export const Home = () => {
                 Hello, I'm Ava Gonick
             </h1>
             
-            <img src = "src/assets/Headshot.jpg" alt="Ava Gonick headshot" className = "block w-64 h-64 rounded-full object-cover object-center mx-auto"></img>
+            <img src = {Headshot} alt="Ava Gonick headshot" className = "block w-64 h-64 rounded-full object-cover object-center mx-auto"></img>
             <p className="text-gray-400 text-lg my-8 max-w-3xl mx-auto">
                  Hi! I'm Ava Gonick, a Computer Science Master's student at UC San Diego. I'm passionate about building tools with real-world impact, from improving clinical trial data quality control in support of drug development at Neurocrine Biosciences to developing surgical risk prediction machine learning models at UCLA. My work spans software development, data science, and machine learning all rooted in the belief that technology should serve people. As a UCSD Graduate Women in Computing chair, I’m also dedicated to advancing diversity in tech and supporting my community through leadership and mentorship.
 
